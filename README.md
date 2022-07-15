@@ -26,7 +26,7 @@ gcc -Wall -O2  -c ./main.c -o ./main.o
 gcc -Wall -O2  -c ./PSOgrafico.c -o ./PSOgrafico.o
 ```
 ```
-gcc  -o ./PSOgrafico ./main.o ./PSOgrafico.o  -lSDL2 -s  
+gcc  -o ./PSOgrafico ./main.o ./PSOgrafico.o  -lSDL2 -lm -s  
 ```
 
 ## How to run
